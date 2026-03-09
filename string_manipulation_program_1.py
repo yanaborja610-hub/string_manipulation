@@ -10,5 +10,10 @@ print("Length Before:", len(text_input))
 while text_input[-1] == " ":
     text_input = text_input[:-1]
 
+# Verifying length of the text after
+print("Length After:", len(text_input))
+
+# Displaying the word with no space characters at the end of the string
+print(text_input)
 
 
