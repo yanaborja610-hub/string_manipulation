@@ -11,3 +11,6 @@ for i in range(10):
     # For counting the even numbers from user's input
     if num % 2 == 0:
         count += 1
+
+# Displaying the count of even numbers from user's input
+print("Count of even numbers:", count)
