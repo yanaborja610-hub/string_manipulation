@@ -1,1 +1,4 @@
 # Create a program that ask user to input 10 numbers. Print how many are even numbers.
+
+numbers = [] # list for input
+count = 0 # default count of even numbers
