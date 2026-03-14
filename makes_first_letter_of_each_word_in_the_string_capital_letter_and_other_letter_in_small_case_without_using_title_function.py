@@ -1,0 +1,1 @@
+# Makes all first letter of each word in the string, capital letter. And all other letter in small case without using title() function.
