@@ -3,3 +3,7 @@
 # Input of name
 print("Type your name in right casing")
 name = input("Input your full name: ")
+
+# Displaying user's name in uppercase
+uppercase_name = name.upper()
+print("Output:", uppercase_name)
