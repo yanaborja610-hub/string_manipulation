@@ -3,3 +3,6 @@
 # Input of number
 print("Input any number between 0-1000")
 number = (int(input("Enter a number: ")))
+
+# Printing the number in 6 digit format
+print("Output:", f"{number:06d}")
