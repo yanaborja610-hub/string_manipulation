@@ -3,3 +3,4 @@
 # Input of string
 print("Type anything in random casing")
 name = input("Input: ").lower() # Reads string all in lowercase
+output = "" # Empty string for later use
