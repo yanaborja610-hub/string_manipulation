@@ -10,3 +10,6 @@ for i in range(len(text)):
     output += text[i].upper() \
     if i == 0 or text[i-1] == " " \
         else text[i]
+
+# Displaying the output
+print("Output: ", output)
