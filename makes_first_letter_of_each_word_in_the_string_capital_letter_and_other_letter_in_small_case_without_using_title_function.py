@@ -2,5 +2,11 @@
 
 # Input of string
 print("Type anything in random casing")
-name = input("Input: ").lower() # Reads string all in lowercase
+text = input("Input: ").lower() # Reads string all in lowercase
 output = "" # Empty string for later use
+
+# Makes the first letter of a word capital while the following letters small case
+for i in range(len(text)):
+    output += text[i].upper() \
+    if i == 0 or text[i-1] == " " \
+        else text[i]
