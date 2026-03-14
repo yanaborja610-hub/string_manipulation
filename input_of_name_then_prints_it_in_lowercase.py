@@ -3,3 +3,7 @@
 # Input of name
 print("Type your name in right casing")
 name = input("Input your full name: ")
+
+# Displaying user's full name in lowercase
+lowercase_name = name.lower()
+print("Output:", lowercase_name)
