@@ -3,3 +3,6 @@
 # Input of numbers
 first_number = float(input("First Number: "))
 second_number = float(input("Second Number: "))
+
+# Getting their product
+print(f"{first_number} times {second_number} = {first_number * second_number}")
