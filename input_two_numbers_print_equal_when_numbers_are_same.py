@@ -7,3 +7,6 @@ second_number = float(input("Second Number: "))
 # Logic of displaying equal when the numbers are the same
 if first_number == second_number:
     print("The numbers are EQUAL")
+# When not equal
+else:
+    print("The numbers are NOT EQUAL")
