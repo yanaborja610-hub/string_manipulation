@@ -2,3 +2,8 @@
 
 numbers = [] # list for input
 count = 0 # default count of odd numbers
+
+# Input of 10 numbers
+for i in range(10):
+    num = (float(input("Enter a number: ")))
+    (numbers.append(num))
