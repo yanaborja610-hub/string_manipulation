@@ -11,3 +11,6 @@ for i in range(10):
     # For counting the odd numbers from user's input
     if num % 2 != 0:
         count += 1
+
+# Displaying the count of odd numbers from user's input
+print("Count of odd numbers:", count)
