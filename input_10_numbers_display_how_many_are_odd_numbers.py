@@ -7,3 +7,7 @@ count = 0 # default count of odd numbers
 for i in range(10):
     num = (float(input("Enter a number: ")))
     (numbers.append(num))
+
+    # For counting the odd numbers from user's input
+    if num % 2 != 0:
+        count += 1
