@@ -10,6 +10,5 @@ while True:
         break # Stops the loop when value is invalid
 
 # Formula of average and displaying it
-if numbers:
-    average = sum(numbers) / len(numbers)
-    print("Average:", average)
+average = sum(numbers) / len(numbers)
+print("Average:", average)
