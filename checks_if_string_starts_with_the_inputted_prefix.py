@@ -5,3 +5,6 @@
 print("Checks if the text starts with the inputted prefix")
 text = input("Enter text: ")
 prefix = input("Enter prefix: ")
+
+# Checking whether the inputted prefix matches with the beginning of the string
+print(text[:len(prefix)] == prefix)
