@@ -3,3 +3,6 @@
 
 # For the input of name
 name = input("Enter your full name: ")
+
+# Printing the number of characters in the input
+print("Number of characters: ", len(name))
