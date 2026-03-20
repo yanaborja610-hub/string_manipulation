@@ -3,3 +3,6 @@
 
 # For the input of text
 text = input("Enter text: ")
+
+# Making first letter of string upper case and the rest in lower case
+print(text[:1].upper() + text[1:].lower())
