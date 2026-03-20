@@ -11,3 +11,9 @@ for characters in text:
     if 'A' <= characters <= 'Z': # Checks if characters are upper case
         text_is_lower = False # Verifies the statement
         break
+
+# Displaying the result
+if text_is_lower:
+    print("The text is all IN LOWER CASING")
+else:
+    print("The text is NOT IN FULL LOWER CASING")
