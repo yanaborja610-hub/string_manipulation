@@ -11,3 +11,6 @@ while True:
         numbers.append(num)
     except ValueError:
         break  # Stops when input is invalid
+
+# Printing them from lowest to highest
+print(sorted(numbers))
