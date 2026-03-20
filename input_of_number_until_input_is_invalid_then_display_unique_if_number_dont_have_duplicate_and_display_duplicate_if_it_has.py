@@ -7,3 +7,12 @@ numbers = [] # Storing numbers inputted
 while True:
     try:
         num = float(input("Enter number: "))
+        # Prints duplicate if number is already inputted and prints unique if it is the first time stored
+        if num in numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            numbers.append(num)
+
+    except ValueError: # Stops loop when input is invalid
+        break
