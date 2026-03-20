@@ -4,4 +4,7 @@
 result = float(input("Enter number 1: "))
 
 for i in range(2, 11):
-    result -= float(input(f"Enter number {i}: "))
+    result -= float(input(f"Enter number {i}: ")) # Subtracting all remaining numbers from first number
+
+# Printing result
+print("Result:", result)
