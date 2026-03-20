@@ -3,3 +3,7 @@
 
 # For the input of name
 name = input("Input your full name in incorrect casing: ")
+
+# Displaying output in proper casing
+name_in_proper_casing = name.title()
+print("Output in proper casing:", name_in_proper_casing)
