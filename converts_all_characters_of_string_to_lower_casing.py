@@ -11,3 +11,6 @@ for characters in text:
         result += chr(ord(characters) + 32) # Converts by adding 32 to its ASCII value
     else:
         result += characters # Keeps small characters unchanged
+
+# Printing result
+print(result)
