@@ -3,3 +3,7 @@
 
 # For the input of name
 name = input("Input a complete statement: ")
+
+# Displaying the number of words
+number_of_words = len(name.split())
+print("Number of words: ", number_of_words)
