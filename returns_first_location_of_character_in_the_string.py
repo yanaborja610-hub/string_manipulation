@@ -11,3 +11,9 @@ for i, character in enumerate(text):
     if character == target:
         position = i
         break
+
+# Display the index of the inputted character
+if position != -1:
+    print(f"'{target}' first appears at index {position}.")
+else:
+    print(f"'{target}' not found in the string.")
