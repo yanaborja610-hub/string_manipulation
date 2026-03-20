@@ -4,3 +4,6 @@
 # For the input of text and suffix to be removed
 text = input("Enter text: ")
 suffix = input("Enter suffix to remove: ")
+
+# Remove characters at the end of the string
+print(text[:-len(suffix)] if text.endswith(suffix) and suffix else text)
