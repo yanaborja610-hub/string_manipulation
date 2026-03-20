@@ -4,3 +4,10 @@
 # Input string and character to find
 text = input("Enter text: ")
 target = input("Enter character to find: ")
+
+# Find last occurrence of the selected character
+position = -1
+for i in range(len(text)-1, -1, -1):  # Loop from end to start
+    if text[i] == target:
+        position = i
+        break
