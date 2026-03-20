@@ -5,3 +5,9 @@
 print("Checks if text is all in lower casing")
 text = input("Enter text: ")
 text_is_lower = True  # Checks if text is all in lower case
+
+# Also checks for upper case characters
+for characters in text:
+    if 'A' <= characters <= 'Z': # Checks if characters are upper case
+        text_is_lower = False # Verifies the statement
+        break
