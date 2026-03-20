@@ -3,3 +3,6 @@
 
 # For the input of name
 name = input("Enter your full name in incorrect casing: ")
+
+# For the output in pascal casing
+print("Output in pascal case:", "".join(word.capitalize() for word in name.split()))
