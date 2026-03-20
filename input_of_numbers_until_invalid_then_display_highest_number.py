@@ -11,3 +11,10 @@ while True:
         numbers.append(num)
     except ValueError:
         break  # Stops when input is invalid
+
+# Prints the highest number from the stored list
+if numbers:
+    highest = max(numbers)
+    print("The highest number is", highest)
+else:
+    print("No valid numbers were entered.")
