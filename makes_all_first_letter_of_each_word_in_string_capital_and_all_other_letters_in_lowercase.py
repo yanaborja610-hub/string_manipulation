@@ -3,3 +3,6 @@
 
 # For input of text
 text = input("Enter text: ")
+
+# Makes all first letter of each word in the string capital while the rest in small case
+print(" ".join(word[:1].upper() + word[1:].lower() for word in text.split()))
