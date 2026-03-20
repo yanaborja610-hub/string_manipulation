@@ -4,3 +4,6 @@
 numbers = []
 for i in range(10):
     numbers.append(float(input("Enter a number: ")))
+
+# Displaying all the numbers but numbers with duplicate appear only once
+print(set(numbers))
