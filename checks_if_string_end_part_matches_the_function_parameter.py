@@ -5,3 +5,6 @@
 print("Checks if the text end with the inputted parameter")
 text = input("Enter text: ")
 suffix = input("Enter suffix: ")
+
+# Displaying True or False
+print(text[-len(suffix):] == suffix) # Gets the length of the suffix and starts at the end of the string
