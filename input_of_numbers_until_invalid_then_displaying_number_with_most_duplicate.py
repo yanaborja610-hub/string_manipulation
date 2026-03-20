@@ -8,3 +8,9 @@ while True:
         numbers.append(float(input("Enter a number: ")))
     except ValueError:
         break # Stops the loop
+
+# Displays the number with most duplicates and the count it appeared
+if numbers:
+    most_duplicate = max(numbers, key=numbers.count) # Picks numbers that appears the most
+    print("Number with the most duplicates:", most_duplicate)
+    print("Number of times it appeared:", numbers.count(most_duplicate))
